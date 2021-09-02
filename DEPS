@@ -15,7 +15,7 @@ vars = {
 
 deps = {
     'src/base': {
-        'url': (Var("chromium_git")) + '/src/base.git@' + (Var("chromium_version")),
+        'url': (Var("chromium_git")) + '/chromium/src/base.git@' + (Var("chromium_version")),
     }
 }
 
