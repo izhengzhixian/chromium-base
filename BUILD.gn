@@ -1,0 +1,5 @@
+static_library("chromium-base") {
+    public_deps = [
+        "//base"
+    ]
+}
